@@ -1,0 +1,16 @@
+metric,year,value,source_note
+ems_total_calls,2025,257158,SCDF Annual Statistics 2025 release: total EMS calls
+ems_total_calls,2024,245279,SCDF Annual Statistics 2025 release: total EMS calls
+ems_emergency_calls,2025,239855,SCDF Annual Statistics 2025 release: emergency calls
+ems_non_emergency_calls,2025,11064,SCDF Annual Statistics 2025 release: non-emergency calls
+ems_non_emergency_calls,2024,10728,SCDF Annual Statistics 2025 release: non-emergency calls
+ems_false_alarm_calls,2025,6239,SCDF Annual Statistics 2025 release: false alarm calls
+ems_false_alarm_calls,2024,5713,SCDF Annual Statistics 2025 release: false alarm calls
+fire_total,2025,2050,SCDF Annual Statistics 2025 release: fire calls
+fire_residential,2025,1051,SCDF Annual Statistics 2025 release: residential fires
+fire_residential,2024,968,SCDF Annual Statistics 2025 release: residential fires
+fire_non_residential,2025,471,SCDF Annual Statistics 2025 release: non-residential fires
+fire_non_building,2025,528,SCDF Annual Statistics 2025 release: non-building fires
+fire_injuries,2025,94,SCDF Annual Statistics 2025 release: fire injuries
+fire_fatalities,2025,6,SCDF Annual Statistics 2025 release: fire fatalities
+ems_calls_per_day,2025,705,SCDF Annual Statistics 2025 release: average EMS calls per day

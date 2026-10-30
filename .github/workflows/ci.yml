@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 1 * *"   # monthly: catch data.gov.sg revisions or a new year of data
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Data-quality and model tests
+        run: python -m pytest -q
+      - name: Committed outputs are reproducible from raw data
+        run: |
+          python src/analyse.py > /dev/null
+          git diff --exit-code -- reports/stats.json reports/tables/
+
+  data-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Snapshot matches live data.gov.sg
+        run: python scripts/fetch_data.py --check

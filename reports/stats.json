@@ -1,0 +1,102 @@
+{
+  "ems": {
+    "calls_2016": 178154,
+    "calls_2025": 257158,
+    "growth_2016_2025_pct": 44.3,
+    "cagr_2016_2025_pct": 4.16,
+    "calls_per_day_2016": 486.8,
+    "calls_per_day_2025": 704.5,
+    "yoy_2020_pct": -0.31,
+    "yoy_2021_pct": 11.91,
+    "yoy_2022_pct": 20.23,
+    "yoy_2025_pct": 4.84,
+    "non_emergency_or_false_pct_2016": 10.55,
+    "non_emergency_or_false_pct_2025": 6.73,
+    "false_alarm_pct_2016": 4.29,
+    "false_alarm_pct_2025": 2.43,
+    "non_emergency_pct_2016": 6.26,
+    "non_emergency_pct_2025": 4.3,
+    "non_emergency_or_false_calls_2025": 17303,
+    "emergency_calls_2016": 159356,
+    "emergency_calls_2025": 239855,
+    "emergency_growth_2016_2025_pct": 50.5
+  },
+  "per_capita": {
+    "per_1000_2017": 32.52,
+    "per_1000_2024": 40.63,
+    "population_growth_2017_2024_pct": 7.6,
+    "calls_growth_2017_2024_pct": 34.4
+  },
+  "fire": {
+    "total_2019": 2862,
+    "total_2020": 1877,
+    "total_2025": 2050,
+    "min_year": 2022,
+    "min_total": 1799,
+    "growth_from_min_to_2025_pct": 14.0,
+    "residential_pct_2025": 51.27,
+    "residential_2022": 935,
+    "residential_2025": 1051,
+    "residential_growth_2022_2025_pct": 12.4,
+    "non_building_2019": 1198,
+    "non_building_2025": 528,
+    "non_building_cv_2020_2025_pct": 16.5,
+    "residential_cv_2020_2025_pct": 4.9
+  },
+  "severity": {
+    "injuries_per_100_2021": 10.47,
+    "injuries_per_100_2022": 9.51,
+    "injuries_per_100_2023": 4.15,
+    "injuries_per_100_2025": 4.59,
+    "injuries_2022": 171,
+    "injuries_2023": 81
+  },
+  "workload": {
+    "ems_share_pct_2025": 99.21,
+    "ems_to_fire_ratio_2025": 125.4
+  },
+  "projection_all_years": {
+    "fit_years": [
+      2016,
+      2025
+    ],
+    "n": 10,
+    "slope_per_year": 10093.6,
+    "r_squared": 0.861,
+    "residual_se": 13009.9,
+    "projections": {
+      "2026": {
+        "point": 270548,
+        "lower": 234215,
+        "upper": 306881
+      },
+      "2027": {
+        "point": 280642,
+        "lower": 242550,
+        "upper": 318734
+      }
+    }
+  },
+  "projection_excl_2020_2021": {
+    "fit_years": [
+      2016,
+      2025
+    ],
+    "n": 8,
+    "slope_per_year": 10016.5,
+    "r_squared": 0.905,
+    "residual_se": 12007.4,
+    "projections": {
+      "2026": {
+        "point": 273320,
+        "lower": 237409,
+        "upper": 309232
+      },
+      "2027": {
+        "point": 283337,
+        "lower": 245708,
+        "upper": 320966
+      }
+    }
+  }
+}
